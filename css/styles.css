@@ -41,6 +41,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  display: inline-block;
 }
 
 .logo-span {
@@ -52,6 +53,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark);
+  display: inline-block;
 }
 
 .container {
@@ -390,6 +392,7 @@ img {
   font-size: 18px;
   line-height: 21px;
   color: var(--light);
+  display: inline-block;
 }
 
 .portfolio_buttom {
