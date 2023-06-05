@@ -19,6 +19,9 @@ body {
   background-color: var(--main-color);
   max-width: 1440px;
 }
+.container {
+  max-width: 1440px;
+}
 
 .link {
   text-decoration: none;
@@ -55,6 +58,7 @@ body {
   padding-right: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
+  border: #2e2f42;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
