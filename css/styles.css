@@ -19,8 +19,9 @@ body {
   background-color: var(--main-color);
   max-width: 1440px;
 }
-.container {
-  max-width: 1440px;
+
+img {
+  display: block;
 }
 
 .link {
@@ -53,16 +54,14 @@ body {
   color: var(--dark);
 }
 
-.header_container {
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+.container {
+  padding: 0 15px;
   border: #2e2f42;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header_nav_list {
