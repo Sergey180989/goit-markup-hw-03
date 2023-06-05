@@ -42,6 +42,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand);
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span {
@@ -54,6 +55,7 @@ img {
   text-transform: uppercase;
   color: var(--dark);
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .container {
@@ -372,6 +374,7 @@ img {
 }
 
 .nav_footer {
+  padding: 100px 0;
   background: var(--modal-overlay);
 }
 
@@ -383,6 +386,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--light);
+  max-width: 264px;
 }
 
 .logo-footer {
@@ -393,6 +397,7 @@ img {
   line-height: 21px;
   color: var(--light);
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .portfolio_buttom {
