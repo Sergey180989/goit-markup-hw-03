@@ -332,6 +332,7 @@ body {
 }
 
 .portfolio-content {
+  display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
