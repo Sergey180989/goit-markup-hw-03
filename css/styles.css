@@ -147,6 +147,7 @@ body {
 
 .container-main {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .main-headline {
@@ -221,9 +222,10 @@ body {
 
 .section-doing {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.section-name {
+.section_name {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -231,7 +233,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--dark);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .list-img {
