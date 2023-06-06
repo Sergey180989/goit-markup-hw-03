@@ -286,45 +286,6 @@ body {
 .logo-footer {
   color: var(--light);
 }
-.footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
-  color: var(--primary-brand);
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.portfolio-photo-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-  margin-bottom: 8px;
-}
-
-.portfolio-project-style {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-.portfolio-nav-button:hover {
-  color: var(--main-color);
-  background-color: var(--pressed-state);
-  border: 1px solid transparent;
-}
-
-.portfolio-nav-button:focus {
-  color: var(--main-color);
-  background-color: var(--pressed-state);
-  border: 1px solid transparent;
-}
 
 .portfolio-nav-button {
   font-family: "Roboto", sans-serif;
@@ -342,6 +303,47 @@ body {
   padding: 12px 24px;
   box-sizing: border-box;
 }
+
+.portfolio-nav-button:hover {
+  color: var(--main-color);
+  background-color: var(--pressed-state);
+  border: 1px solid transparent;
+}
+
+.portfolio-nav-button:focus {
+  color: var(--main-color);
+  background-color: var(--pressed-state);
+  border: 1px solid transparent;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.portfolio-style {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .portfolio-menu {
   display: flex;
   margin: 0 auto;
