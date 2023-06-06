@@ -337,7 +337,7 @@ body {
   gap: 48px 24px;
 }
 
-.portfolio-name {
+.portfolio_name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -346,7 +346,7 @@ body {
   margin-bottom: 8px;
 }
 
-.portfolio-style {
+.portfolio_style {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
